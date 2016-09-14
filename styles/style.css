@@ -94,7 +94,7 @@ article p {
 }
 
 /* Every other Article's Post-Content Background Color to a Light Grey */
-article {
+article:nth-child(2n) {
     background-color: lightgrey;
 }
 
